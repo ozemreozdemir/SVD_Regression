@@ -1,0 +1,10 @@
+2016-05-14 15:05:20 INFO::# OZKAN EMRE OZDEMIR # HOMEWORK 6 # 
+ How many SVD features do we need to get a good enough fit? 
+ The full linear regression of Violent Crimes per Population has the Adjusted R-squared value of 0.795507165097408 which is relatively low 
+ From "The Magnitude of the Principal Components" graph it can be seen that the after the first 60th feature, we are not adding any predictive power
+ Results show that at least  81  number of SVD features are needed to get a good enough fit (R-square > 0.8)
+ which gives the Adjusted R-squared value of 0.791853188667282 
+ Based on the AIC test  84  number of principle components are needed 
+ This value indicates that if we cannot reformulate our linear regression model in a way to get rid of dependence on the independent variables, 
+ with SVD we are guarenteed to have every feature independent if we have 84  number of principle components 
+ # END #
